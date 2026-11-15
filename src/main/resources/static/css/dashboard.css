@@ -1,0 +1,12 @@
+/* Dashboard administrativo */
+.dashboard { flex: 1; min-width: 0; background: #f5f6f8; }
+.dashboard .card { border: 0; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); }
+.kpi .card-body { padding: .9rem 1rem; }
+.kpi-rotulo { display: block; font-size: .8rem; color: #6c757d; }
+.kpi-valor { display: block; font-size: 1.6rem; line-height: 1.2; }
+.kpi-aberto { border-left: 4px solid #0d6efd !important; }
+.kpi-concluido { border-left: 4px solid #198754 !important; }
+.kpi-critico { border-left: 4px solid #dc3545 !important; }
+.grafico { position: relative; height: 280px; }
+.badge-status { font-weight: 500; }
+.consideracoes { max-width: 320px; white-space: normal; font-size: .85rem; color: #495057; }
